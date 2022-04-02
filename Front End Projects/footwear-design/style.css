@@ -8,6 +8,7 @@ body {
     background-color: #CB021C;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    transition: background 0.4s ease-in-out;
 }
 
 a {
@@ -61,11 +62,12 @@ a {
 }
 
 .carousel {
+    display: flex;
     position: absolute;
     left: 0;
     top: 0;
     transform: translateX(0);
-    display: flex;
+    transition: transform 0.4s ease-in-out;
 }
 
 .slide {
@@ -86,7 +88,7 @@ a {
 }
 
 .slide a {
-    background-color: #40020E;
+    background-color: #1f1f1f;
     padding: 1rem 2rem;
     font-size: 1.5rem;
 }
